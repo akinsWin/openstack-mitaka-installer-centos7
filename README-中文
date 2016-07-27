@@ -1,0 +1,8 @@
+本安装fork了 tigerlinux ，在此基础上修正部分错误。
+在sample-config目录增加了两个配置文件，这两个配置文件是基于我的以下安装配置的
+
+虚机三个网卡， 网卡1 管理网络 host-only， 网卡2 可上网 public internet， 网卡3 openstack未来vm流量网络 host-only 
+（本例中192.168.215.x是管理网络，192.168.214.x是vm流量网络）
+
+详细安装提示见：
+http://www.cnadn.net/post/2070.htm
