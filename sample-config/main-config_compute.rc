@@ -527,7 +527,7 @@ spiceserver_controller_address="192.168.215.150"
 # VNC Server: This is the IP of our controller, ALL-IN-ONE, or nova control node:
 vncserver_controller_address="192.168.215.150"
 # Keymap: User "us" or "es" here
-vnc_keymap="us"
+vnc_keymap="en-us"
 #
 # If "yes", our installer will create the nova/neutron security groups for icmp, ssh and rdp access
 vm_default_access="yes"
